@@ -1,0 +1,35 @@
+body {
+  background: #636e72;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 96px;
+}
+button {
+  font-size: 50px;
+  padding: 15px;
+  margin: 50px 10px;
+  background: #00b894;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #00b894;
+  box-shadow: 10px 10px 5px black;
+  text-transform: uppercase;
+  height: 100px;
+  width: 250px;
+}
+button:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+#messages {
+  color: white;
+  font-size: 50px;
+  display: block;
+  padding: 70px;
+  text-align: center;
+}

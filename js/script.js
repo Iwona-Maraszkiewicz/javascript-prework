@@ -49,7 +49,7 @@ printMessage('Twój ruch to: ' + playerMove);
 
 
   function displayResult(argComputerMove, argPlayerMove){
-    printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
+    printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove+'.');
 
     if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
       printMessage('Ty wygrywasz!');
@@ -63,9 +63,10 @@ printMessage('Twój ruch to: ' + playerMove);
     else if( argComputerMove == argPlayerMove){
       printMessage('Mamy remis!');
     }
-    else if( argPlayerMove != 'papier' && argPlayerMove != 'nożyce' && argPlayerMove != 'kamień'){
+    /*else if( argPlayerMove != 'papier' && argPlayerMove != 'nożyce' && argPlayerMove != 'kamień'){
       printMessage('Błąd. Spróbuj jeszcze raz. Wpisz 1, 2 lub 3!');
     }
+    */
     else {
       printMessage('Tym razem przegrywasz :(');
     }
